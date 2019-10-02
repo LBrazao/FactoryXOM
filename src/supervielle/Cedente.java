@@ -1,12 +1,13 @@
 package supervielle;
 
+import java.util.Date;
 import java.util.Vector;
 
 
 
 public class Cedente {
 	
-	protected ilog.rules.xml.types.IlrDate fechaPlafond;
+	protected Date fechaPlafond;
 	protected Double limiteLinea;
 	protected Double saldoLinea;
 	protected Double limitePlafond;
@@ -15,11 +16,11 @@ public class Cedente {
 	protected CodigoDescripcion segmento;
 	protected CodigoDescripcion cartera;
 	
-
-	public ilog.rules.xml.types.IlrDate getFechaPlafond() {
+	
+	public Date getFechaPlafond() {
 		return fechaPlafond;
 	}
-	public void setFechaPlafond(ilog.rules.xml.types.IlrDate fechaPlafond) {
+	public void setFechaPlafond(Date fechaPlafond) {
 		this.fechaPlafond = fechaPlafond;
 	}
 	public Double getLimiteLinea() {

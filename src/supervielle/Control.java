@@ -1,21 +1,28 @@
 package supervielle;
 
 public class Control {
-
-	protected CodigoDescripcion estado;
-	protected String nombre;
 	
-	public CodigoDescripcion getEstado() {
-		return estado;
-	}
-	public void setEstado(CodigoDescripcion estado) {
-		this.estado = estado;
-	}
+	protected String nombre;
+	protected Integer estado;
+	protected String descripcion;
+	
 	public String getNombre() {
 		return nombre;
 	}
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
+	}
+	public Integer getEstado() {
+		return estado;
+	}
+	public void setEstado(Integer estado) {
+		this.estado = estado;
+	}
+	public String getDescripcion() {
+		return descripcion;
+	}
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
 	}
 	
 }
