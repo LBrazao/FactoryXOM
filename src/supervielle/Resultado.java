@@ -29,5 +29,4 @@ public class Resultado {
 		this.control = control;
 	}	
 	
-	
 }

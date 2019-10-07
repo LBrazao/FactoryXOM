@@ -5,6 +5,7 @@ public class Control {
 	protected String nombre;
 	protected Integer estado;
 	protected String descripcion;
+	protected Integer id;
 	
 	public String getNombre() {
 		return nombre;
@@ -24,5 +25,10 @@ public class Control {
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
-	
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}	
 }
